@@ -1,0 +1,8 @@
+run liquibase for init db
+./liquibase/liquibase --logLevel=debug --driver=com.mysql.jdbc.Driver --changeLogFile=changeLog.xml --url="jdbc:mysql://localhost:3306/distance-calculator" --username=root --password=root update
+
+API:
+
+POST /api/upload
+POST /api/calculate-distance
+GET /api/city

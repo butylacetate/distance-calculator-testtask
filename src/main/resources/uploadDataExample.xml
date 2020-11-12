@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UploadData>
+    <Cities>
+        <City>
+            <Name>Samara</Name>
+            <Latitude>53.20007</Latitude>
+            <Longitude>50.15000</Longitude>
+        </City>
+        <City>
+            <Name>Moscow</Name>
+            <Latitude>55.75222</Latitude>
+            <Longitude>37.61556</Longitude>
+        </City>
+    </Cities>
+    <Distances>
+        <Distance>
+            <FromCityName>Samara</FromCityName>
+            <ToCityName>Moscow</ToCityName>
+            <Distance>1000.0</Distance>
+        </Distance>
+    </Distances>
+</UploadData>
